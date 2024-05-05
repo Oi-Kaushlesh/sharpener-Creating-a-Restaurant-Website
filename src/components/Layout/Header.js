@@ -2,6 +2,7 @@ import React from "react";
 import mealImg from "../../assets/meals.jpg"
 import classes from "./Header.module.css"
 import HeaderCartBUtton from "./HeaderCartButton";
+import MealsSummary from "../Meals/MealsSummary";
 const Header = () => {
     return <> 
         <header className={classes.header}>
